@@ -204,6 +204,20 @@ body.hovering .cursor-ring { width: 56px; height: 56px; border-color: rgba(139,9
 }
 .logo-bracket { color: var(--accent-1); }
 
+.nav-logo-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(99, 102, 241, 0.5);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-logo-img:hover {
+  border-color: var(--accent-1);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
